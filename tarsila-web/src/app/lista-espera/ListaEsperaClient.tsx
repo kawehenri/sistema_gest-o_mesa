@@ -94,7 +94,7 @@ export function ListaEsperaClient() {
                 </div>
               </div>
               <p className="text-xs text-graphite/45 mb-5 text-center">
-                Avisaremos por SMS quando sua mesa estiver pronta. Tolerância de 10 minutos.
+                Simulação local — nenhum aviso é enviado de verdade.
               </p>
               <div className="flex flex-col gap-3">
                 <Button onClick={handleAtualizar} variant="ghost" fullWidth disabled={updating}>

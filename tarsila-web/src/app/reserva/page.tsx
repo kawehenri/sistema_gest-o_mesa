@@ -18,8 +18,8 @@ export default function ReservaPage() {
               Reserva.
             </h1>
             <p className="text-body">
-              Preencha os dados abaixo para reservar sua mesa. Enviaremos a
-              confirmação por WhatsApp.
+              Demonstração interativa no navegador: não há servidor nem envio
+              real de dados — apenas React e validação local.
             </p>
           </div>
 

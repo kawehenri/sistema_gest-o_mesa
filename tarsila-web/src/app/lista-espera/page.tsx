@@ -17,8 +17,8 @@ export default function ListaEsperaPage() {
             Lista de espera em tempo real.
           </h1>
           <p className="text-body max-w-lg">
-            Entre na fila virtual e nós te avisamos quando sua mesa estiver
-            pronta.
+            Demonstração no navegador: a fila existe só na memória desta aba —
+            sem servidor, sem SMS real.
           </p>
         </div>
 

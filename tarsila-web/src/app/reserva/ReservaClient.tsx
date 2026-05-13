@@ -117,8 +117,8 @@ export function ReservaClient() {
           {form.pessoas === 1 ? "pessoa" : "pessoas"}
         </p>
         <p className="text-sm text-graphite/50 mb-8">
-          Você receberá a confirmação via WhatsApp em{" "}
-          <strong>{form.telefone}</strong>. Tolerância de 15 minutos.
+          Na demonstração, nada é gravado nem enviado. Em um site real, a
+          confirmação iria para <strong>{form.telefone}</strong>.
         </p>
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
           <Button onClick={handleNew} variant="outline">
@@ -361,7 +361,7 @@ export function ReservaClient() {
           Continuar para confirmação →
         </Button>
         <p className="text-xs text-graphite/40 text-center">
-          Avisaremos via WhatsApp. Tolerância de 15 minutos.
+          Apenas simulação no seu dispositivo — sem API ou armazenamento.
         </p>
       </div>
     </form>
