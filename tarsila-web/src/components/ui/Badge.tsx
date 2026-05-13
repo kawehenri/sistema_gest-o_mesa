@@ -30,7 +30,7 @@ const variantConfig: Record<
     classes: "bg-info/10 text-info border border-info/20",
   },
   live: {
-    label: "Atualizando ao vivo",
+    label: "Simulação local",
     classes: "bg-success/10 text-success border border-success/20",
   },
 };

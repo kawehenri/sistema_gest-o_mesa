@@ -199,7 +199,7 @@ export default function HomePage() {
                     </div>
                     <StarRating rating={r.nota} size="sm" />
                   </div>
-                  <p className="text-sm text-graphite/65 leading-relaxed">"{r.texto}"</p>
+                  <p className="text-sm text-graphite/65 leading-relaxed">{`"${r.texto}"`}</p>
                 </div>
               ))}
             </div>
@@ -232,7 +232,7 @@ export default function HomePage() {
             Uma mesa especial espera por você.
           </h2>
           <p className="text-white/60 text-lg mb-10 max-w-md mx-auto">
-            Escolha a data, o horário e o número de pessoas. Em poucos cliques.
+            Na demonstração você percorre data, horário e número de pessoas — tudo só no navegador.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <Button href="/reserva" size="lg">

@@ -29,7 +29,7 @@ function ReviewCard({ review }: { review: Review }) {
         <StarRating rating={review.nota} size="sm" />
       </div>
       <p className="text-sm text-graphite/65 leading-relaxed">
-        "{review.comentario}"
+        {`"${review.comentario}"`}
       </p>
     </article>
   );

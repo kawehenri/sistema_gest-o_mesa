@@ -157,7 +157,7 @@ export function ListaEsperaClient() {
                   Entrar na lista
                 </Button>
                 <p className="text-xs text-graphite/40 text-center mt-3">
-                  Avisaremos por SMS quando sua mesa estiver pronta. Tolerância de 10 minutos.
+                  Demonstração: nada é enviado — a fila existe só nesta aba.
                 </p>
               </div>
             </form>
@@ -173,7 +173,9 @@ export function ListaEsperaClient() {
           </div>
           <div>
             <p className="text-sm font-semibold text-graphite">Tempo médio de espera</p>
-            <p className="text-xs text-graphite/50">Aproximadamente 35 minutos · atualizado ao vivo</p>
+            <p className="text-xs text-graphite/50">
+              Valores ilustrativos · contador apenas nesta página
+            </p>
           </div>
         </div>
       </div>

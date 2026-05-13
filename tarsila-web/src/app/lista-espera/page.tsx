@@ -4,7 +4,7 @@ import { ListaEsperaClient } from "./ListaEsperaClient";
 export const metadata: Metadata = {
   title: "Lista de Espera",
   description:
-    "Sem reserva? Sem problema. Entre na lista de espera virtual e acompanhe sua posição em tempo real. A Tarsila avisa quando sua mesa estiver pronta.",
+    "Demonstração interativa de fila no navegador, sem servidor: posições e tempos são simulados apenas nesta sessão.",
 };
 
 export default function ListaEsperaPage() {
@@ -14,7 +14,7 @@ export default function ListaEsperaPage() {
         <div className="mb-10">
           <p className="section-label mb-3">Sem reserva? Sem problema.</p>
           <h1 id="lista-heading" className="heading-display mb-4">
-            Lista de espera em tempo real.
+            Lista de espera (simulação).
           </h1>
           <p className="text-body max-w-lg">
             Demonstração no navegador: a fila existe só na memória desta aba —
