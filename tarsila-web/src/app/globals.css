@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-inter: "Inter", sans-serif;
+    --font-playfair: "Playfair Display", serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply bg-ivory text-graphite font-sans;
+  }
+
+  *:focus-visible {
+    @apply outline-2 outline-offset-2 outline-brand rounded-sm;
+  }
+
+  ::selection {
+    @apply bg-brand/20 text-graphite;
+  }
+}
+
+@layer components {
+  .container-site {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-spacing {
+    @apply py-16 md:py-24;
+  }
+
+  .section-label {
+    @apply text-xs font-semibold tracking-widest uppercase text-brand;
+  }
+
+  .heading-display {
+    @apply font-serif text-4xl md:text-5xl lg:text-6xl font-bold leading-tight tracking-tight text-graphite;
+  }
+
+  .heading-section {
+    @apply font-serif text-3xl md:text-4xl font-bold leading-snug text-graphite;
+  }
+
+  .heading-card {
+    @apply font-serif text-xl font-semibold text-graphite;
+  }
+
+  .text-body {
+    @apply text-base leading-relaxed text-graphite/70;
+  }
+
+  .card-base {
+    @apply bg-card rounded-2xl border border-sand shadow-card transition-all duration-300;
+  }
+
+  .card-hover {
+    @apply hover:shadow-card-hover hover:-translate-y-0.5;
+  }
+
+  .input-base {
+    @apply w-full px-4 py-3 rounded-xl border border-sand bg-card text-graphite placeholder-graphite/40
+           focus:outline-none focus:ring-2 focus:ring-brand/30 focus:border-brand
+           transition-all duration-200 text-sm;
+  }
+
+  .label-base {
+    @apply block text-xs font-semibold tracking-wide uppercase text-graphite/60 mb-1.5;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}

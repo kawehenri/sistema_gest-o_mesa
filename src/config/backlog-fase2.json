@@ -1,0 +1,32 @@
+{
+  "prioridade_alta": [
+    {
+      "item": "Provedor de notificações (WhatsApp Business API / SMS)",
+      "notas": "Substituir simulação por envio real e templates de confirmação"
+    },
+    {
+      "item": "Tempo estimado de fila com heurística de rotatividade",
+      "notas": "Usar média móvel de permanência por tipo de mesa"
+    }
+  ],
+  "prioridade_media": [
+    {
+      "item": "Histórico completo com filtros (data, nome, telefone, status)",
+      "notas": "Paginação e export CSV"
+    },
+    {
+      "item": "Relatórios: ocupação, no-show, tempo médio de espera",
+      "notas": "Gráficos semanais e comparativo de turnos"
+    }
+  ],
+  "prioridade_baixa": [
+    {
+      "item": "Avaliação pós-atendimento (NPS simples)",
+      "notas": "Link por SMS após encerramento da mesa"
+    },
+    {
+      "item": "Sugestão inteligente de mesa por padrão histórico",
+      "notas": "Requer volume de dados e backend analítico"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "escopo": "Somente frontend (SPA). Persistência local (localStorage). Sem backend real.",
+  "perfis": ["gerente", "hostess", "garcom"],
+  "mvp_funcional": [
+    "Login simulado com controle por perfil",
+    "Mapa do salão: status livre, ocupada, reservada, limpeza",
+    "CRUD de reservas com validação de capacidade e limite percentual por slot",
+    "Fila de espera: entrada, ordem, chamar próximo, desistência",
+    "Tolerância de atraso e marcação de no-show",
+    "Dashboard operacional: ocupação, fila, próximas reservas",
+    "Alocação sugerida por capacidade (sem escolha livre do cliente final — fluxo operador)"
+  ],
+  "nao_funcional": [
+    "Responsivo (mobile/tablet/desktop)",
+    "Feedback visual imediato e mensagens de erro claras",
+    "Tarefas principais em poucos cliques",
+    "Atualização instantânea na UI (estado local; simula tempo real)"
+  ],
+  "fase2_planejada": [
+    "Notificações WhatsApp/SMS (integração futura)",
+    "Tempo estimado de espera automático",
+    "Histórico e filtros avançados",
+    "Relatórios gerenciais exportáveis"
+  ]
+}
